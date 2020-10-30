@@ -1,0 +1,15 @@
+# tokenisation
+from nltk.stem import PorterStemmer
+from nltk.tokenize import sent_tokenize, word_tokenize
+ 
+fields = [] 
+rows = [] 
+   
+    
+rows = ["adsfaierfa"]
+ps = PorterStemmer()
+
+for row in rows[:]: 
+    # parsing each column of a row 
+    for col in row: 
+        print("%10s"%col)
