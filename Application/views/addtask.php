@@ -53,6 +53,7 @@
                                                             <option value="Delivered">Delivered</option>
                                                         </select>
                                                         <p id="statuserr" style="color: red;"></p>
+                                                       
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
@@ -62,6 +63,7 @@
                                                             <option value="Very Important">Very Important</option>
                                                             <option value="Important">Important</option>
                                                             <option value="Ignorant">Ignorant</option>
+                                                            <option value="Irrelevennt">Irrelevent</option>
                                                         </select>
                                                         <p id="tagserr" style="color: red;"></p>
                                                     </div>
