@@ -5,7 +5,7 @@
 		 function __construct()  
       	{  
          // Call the Model constructor  
-         parent::__construct();  
+        # parent::__construct();  
      	 }
 
 
